@@ -1,0 +1,79 @@
+2015-08-31 22:39:14,169 DEBUG d.u.Logger [demo.sqlConvert.Main.main()] Loggers initialized
+2015-08-31 22:39:14,179 DEBUG d.u.Json [demo.sqlConvert.Main.main()] Json file path :resources\data.json
+2015-08-31 22:39:14,995 DEBUG d.c.d.MSSQLConnection [demo.sqlConvert.Main.main()] jdbc:sqlserver://localhost:49524;databaseName=AdventureWorks2014;user=zxm491;password=zxm491;
+2015-08-31 22:39:14,995 DEBUG d.c.d.MSSQLConnection [demo.sqlConvert.Main.main()] Connected
+2015-08-31 22:39:19,041 DEBUG d.u.MapExpression [ForkJoinPool-6-worker-2] Formated expression:upper(MaritalStatus)='S' OR upper(MaritalStatus)='M'
+2015-08-31 22:39:20,031 DEBUG d.u.MapExpression [ForkJoinPool-6-worker-2] Formated expression:HireDate>='1996-07-01' AND HireDate<=current_timestamp + '(1) day'
+2015-08-31 22:39:20,821 DEBUG d.u.MapExpression [ForkJoinPool-9-worker-0] Formated expression:StandardCost>=(money (0.00))
+2015-08-31 22:39:20,881 DEBUG d.u.MapExpression [ForkJoinPool-6-worker-2] Formated expression:upper(Gender)='F' OR upper(Gender)='M'
+2015-08-31 22:39:21,280 DEBUG d.u.MapExpression [ForkJoinPool-11-worker-3] Formated expression:CreditRating>=(1) AND CreditRating<=(5)
+2015-08-31 22:39:21,310 DEBUG d.u.MapExpression [ForkJoinPool-11-worker-1] Formated expression:OrderQty>(0)
+2015-08-31 22:39:21,350 DEBUG d.u.MapExpression [ForkJoinPool-11-worker-0] Formated expression:AverageLeadTime>=(1)
+2015-08-31 22:39:21,430 DEBUG d.u.MapExpression [ForkJoinPool-9-worker-1] Formated expression:Shelf ~ '[A-Za-z]' OR Shelf='N/A'
+2015-08-31 22:39:21,460 DEBUG d.u.MapExpression [ForkJoinPool-9-worker-3] Formated expression:ListPrice>(money (0.00))
+2015-08-31 22:39:21,540 DEBUG d.u.MapExpression [ForkJoinPool-11-worker-2] Formated expression:ShipBase>(money (0.00))
+2015-08-31 22:39:21,780 DEBUG d.u.MapExpression [ForkJoinPool-6-worker-0] Formated expression:PayFrequency=(2) OR PayFrequency=(1)
+2015-08-31 22:39:22,040 DEBUG d.u.MapExpression [ForkJoinPool-11-worker-0] Formated expression:StandardPrice>(money (0.00))
+2015-08-31 22:39:22,150 DEBUG d.u.MapExpression [ForkJoinPool-6-worker-2] Formated expression:VacationHours>=(-40) AND VacationHours<=(240)
+2015-08-31 22:39:22,260 DEBUG d.u.MapExpression [ForkJoinPool-11-worker-2] Formated expression:ShipRate>(money (0.00))
+2015-08-31 22:39:22,260 DEBUG d.u.MapExpression [ForkJoinPool-11-worker-1] Formated expression:UnitPrice>=(money (0.00))
+2015-08-31 22:39:23,049 DEBUG d.u.MapExpression [ForkJoinPool-6-worker-0] Formated expression:Rate>=(money (6.50)) AND Rate<=(money (200.00))
+2015-08-31 22:39:23,329 DEBUG d.u.MapExpression [ForkJoinPool-11-worker-0] Formated expression:LastReceiptCost>(money (0.00))
+2015-08-31 22:39:23,579 DEBUG d.u.MapExpression [ForkJoinPool-8-worker-2] Formated expression:EmailPromotion>=(0) AND EmailPromotion<=(2)
+2015-08-31 22:39:23,579 DEBUG d.u.MapExpression [ForkJoinPool-6-worker-2] Formated expression:SickLeaveHours>=(0) AND SickLeaveHours<=(120)
+2015-08-31 22:39:23,789 DEBUG d.u.MapExpression [ForkJoinPool-11-worker-2] Formated expression:Status>=(1) AND Status<=(4)
+2015-08-31 22:39:23,909 DEBUG d.u.MapExpression [ForkJoinPool-11-worker-1] Formated expression:ReceivedQty>=(0.00)
+2015-08-31 22:39:24,009 DEBUG d.u.MapExpression [ForkJoinPool-11-worker-0] Formated expression:MinOrderQty>=(1)
+2015-08-31 22:39:24,009 DEBUG d.u.MapExpression [ForkJoinPool-9-worker-1] Formated expression:Bin>=(0) AND Bin<=(100)
+2015-08-31 22:39:24,499 DEBUG d.u.MapExpression [ForkJoinPool-11-worker-1] Formated expression:RejectedQty>=(0.00)
+2015-08-31 22:39:24,529 DEBUG d.u.MapExpression [ForkJoinPool-8-worker-2] Formated expression:PersonType IS NULL OR (upper(PersonType)='GC' OR upper(PersonType)='SP' OR upper(PersonType)='EM' OR upper(PersonType)='IN' OR upper(PersonType)='VC' OR upper(PersonType)='SC')
+2015-08-31 22:39:24,969 DEBUG d.u.MapExpression [ForkJoinPool-6-worker-2] Formated expression:BirthDate>='1930-01-01' AND BirthDate<=current_timestamp + '(-18) year'
+2015-08-31 22:39:25,109 DEBUG d.u.MapExpression [ForkJoinPool-11-worker-2] Formated expression:SubTotal>=(money (0.00))
+2015-08-31 22:39:25,655 DEBUG d.u.MapExpression [ForkJoinPool-11-worker-0] Formated expression:MaxOrderQty>=(1)
+2015-08-31 22:39:26,175 DEBUG d.u.MapExpression [ForkJoinPool-9-worker-0] Formated expression:Rating>=(1) AND Rating<=(5)
+2015-08-31 22:39:26,215 DEBUG d.u.MapExpression [ForkJoinPool-11-worker-2] Formated expression:TaxAmt>=(money (0.00))
+2015-08-31 22:39:26,495 DEBUG d.u.MapExpression [ForkJoinPool-11-worker-0] Formated expression:OnOrderQty>=(0)
+2015-08-31 22:39:26,705 DEBUG d.u.MapExpression [ForkJoinPool-9-worker-3] Formated expression:upper(TransactionType)='P' OR upper(TransactionType)='S' OR upper(TransactionType)='W'
+2015-08-31 22:39:26,735 DEBUG d.u.MapExpression [ForkJoinPool-9-worker-2] Formated expression:PerAssemblyQty>=(1.00)
+2015-08-31 22:39:27,025 DEBUG d.u.MapExpression [ForkJoinPool-11-worker-2] Formated expression:Freight>=(money (0.00))
+2015-08-31 22:39:27,425 DEBUG d.u.MapExpression [ForkJoinPool-13-worker-0] Formated expression:Quantity>=(1)
+2015-08-31 22:39:28,395 DEBUG d.u.MapExpression [ForkJoinPool-13-worker-3] Formated expression:DiscountPct>=(money (0.00))
+2015-08-31 22:39:28,425 DEBUG d.u.MapExpression [ForkJoinPool-9-worker-2] Formated expression:OrderQty>(0)
+2015-08-31 22:39:28,785 DEBUG d.u.MapExpression [ForkJoinPool-9-worker-2] Formated expression:ScrappedQty>=(0)
+2015-08-31 22:39:28,845 DEBUG d.u.MapExpression [ForkJoinPool-13-worker-3] Formated expression:MinQty>=(0)
+2015-08-31 22:39:29,275 DEBUG d.u.MapExpression [ForkJoinPool-9-worker-3] Formated expression:upper(TransactionType)='P' OR upper(TransactionType)='S' OR upper(TransactionType)='W'
+2015-08-31 22:39:29,625 DEBUG d.u.MapExpression [ForkJoinPool-13-worker-3] Formated expression:MaxQty>=(0)
+2015-08-31 22:39:31,355 DEBUG d.u.MapExpression [ForkJoinPool-9-worker-3] Formated expression:upper(ProductLine)='R' OR upper(ProductLine)='M' OR upper(ProductLine)='T' OR upper(ProductLine)='S' OR ProductLine IS NULL
+2015-08-31 22:39:31,735 DEBUG d.u.MapExpression [ForkJoinPool-9-worker-0] Formated expression:Status>=(1) AND Status<=(3)
+2015-08-31 22:39:31,965 DEBUG d.u.MapExpression [ForkJoinPool-9-worker-1] Formated expression:ActualResourceHrs>=(0.0000)
+2015-08-31 22:39:32,145 DEBUG d.u.MapExpression [ForkJoinPool-9-worker-3] Formated expression:upper(Class)='H' OR upper(Class)='M' OR upper(Class)='L' OR Class IS NULL
+2015-08-31 22:39:32,175 DEBUG d.u.MapExpression [ForkJoinPool-13-worker-0] Formated expression:OrderQty>(0)
+2015-08-31 22:39:32,735 DEBUG d.u.MapExpression [ForkJoinPool-9-worker-1] Formated expression:PlannedCost>(money (0.00))
+2015-08-31 22:39:32,765 DEBUG d.u.MapExpression [ForkJoinPool-9-worker-3] Formated expression:upper(Style)='U' OR upper(Style)='M' OR upper(Style)='W' OR Style IS NULL
+2015-08-31 22:39:33,775 DEBUG d.u.MapExpression [ForkJoinPool-9-worker-0] Formated expression:CostRate>=(money (0.00))
+2015-08-31 22:39:34,025 DEBUG d.u.MapExpression [ForkJoinPool-9-worker-1] Formated expression:ActualCost>(money (0.00))
+2015-08-31 22:39:34,175 DEBUG d.u.MapExpression [ForkJoinPool-13-worker-2] Formated expression:TaxType>=(1) AND TaxType<=(3)
+2015-08-31 22:39:34,365 DEBUG d.u.MapExpression [ForkJoinPool-13-worker-0] Formated expression:UnitPrice>=(money (0.00))
+2015-08-31 22:39:34,585 DEBUG d.u.MapExpression [ForkJoinPool-9-worker-0] Formated expression:Availability>=(0.00)
+2015-08-31 22:39:35,586 DEBUG d.u.MapExpression [ForkJoinPool-13-worker-2] Formated expression:SalesQuota>(money (0.00))
+2015-08-31 22:39:35,776 DEBUG d.u.MapExpression [ForkJoinPool-13-worker-1] Formated expression:SalesQuota>(money (0.00))
+2015-08-31 22:39:36,206 DEBUG d.u.MapExpression [ForkJoinPool-13-worker-1] Formated expression:Bonus>=(money (0.00))
+2015-08-31 22:39:36,276 DEBUG d.u.MapExpression [ForkJoinPool-9-worker-3] Formated expression:SafetyStockLevel>(0)
+2015-08-31 22:39:36,276 DEBUG d.u.MapExpression [ForkJoinPool-13-worker-0] Formated expression:UnitPriceDiscount>=(money (0.00))
+2015-08-31 22:39:36,566 DEBUG d.u.MapExpression [ForkJoinPool-9-worker-3] Formated expression:ReorderPoint>(0)
+2015-08-31 22:39:36,566 DEBUG d.u.MapExpression [ForkJoinPool-13-worker-1] Formated expression:CommissionPct>=(money (0.00))
+2015-08-31 22:39:36,896 DEBUG d.u.MapExpression [ForkJoinPool-13-worker-1] Formated expression:SalesYTD>=(money (0.00))
+2015-08-31 22:39:36,966 DEBUG d.u.MapExpression [ForkJoinPool-9-worker-3] Formated expression:StandardCost>=(money (0.00))
+2015-08-31 22:39:37,136 DEBUG d.u.MapExpression [ForkJoinPool-13-worker-3] Formated expression:Status>=(0) AND Status<=(8)
+2015-08-31 22:39:37,166 DEBUG d.u.MapExpression [ForkJoinPool-13-worker-1] Formated expression:SalesLastYear>=(money (0.00))
+2015-08-31 22:39:37,276 DEBUG d.u.MapExpression [ForkJoinPool-13-worker-0] Formated expression:SalesYTD>=(money (0.00))
+2015-08-31 22:39:37,516 DEBUG d.u.MapExpression [ForkJoinPool-9-worker-3] Formated expression:ListPrice>=(money (0.00))
+2015-08-31 22:39:37,576 DEBUG d.u.MapExpression [ForkJoinPool-13-worker-0] Formated expression:SalesLastYear>=(money (0.00))
+2015-08-31 22:39:37,616 DEBUG d.u.MapExpression [ForkJoinPool-9-worker-3] Formated expression:Weight>(0.00)
+2015-08-31 22:39:37,646 DEBUG d.u.MapExpression [ForkJoinPool-13-worker-0] Formated expression:CostYTD>=(money (0.00))
+2015-08-31 22:39:37,836 DEBUG d.u.MapExpression [ForkJoinPool-9-worker-3] Formated expression:DaysToManufacture>=(0)
+2015-08-31 22:39:37,886 DEBUG d.u.MapExpression [ForkJoinPool-13-worker-0] Formated expression:CostLastYear>=(money (0.00))
+2015-08-31 22:39:37,956 DEBUG d.u.MapExpression [ForkJoinPool-13-worker-3] Formated expression:SubTotal>=(money (0.00))
+2015-08-31 22:39:37,996 DEBUG d.u.MapExpression [ForkJoinPool-13-worker-3] Formated expression:TaxAmt>=(money (0.00))
+2015-08-31 22:39:38,046 DEBUG d.u.MapExpression [ForkJoinPool-13-worker-3] Formated expression:Freight>=(money (0.00))
+2015-08-31 22:39:38,310 DEBUG d.c.d.MSSQLConnection [demo.sqlConvert.Main.main()] Closing connection
